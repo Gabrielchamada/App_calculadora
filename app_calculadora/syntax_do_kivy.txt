@@ -1,0 +1,10 @@
+GridLayout:
+    cols: 1 #colunas
+    item:
+        configuracoes: valor
+
+-----------------------------
+python:
+
+def on_start(self): #toda vez que o app abrir isso vai ser rodado
+    self.root.ids["id"].text = "texto novo"  #"root" esta se referindo ao arquivo .kv
